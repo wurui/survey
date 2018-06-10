@@ -15,18 +15,20 @@
     </p>
     <data>
     <form-post ADAPTERID="25b1cccd638ec5a88c5a7de83">
-        <uid>git/wurui</uid>
-        <post>
-            <i>
-                <name>name</name>
-                <value>wurui</value>
-            </i>
-            <i>
-                <name>email</name>
-                <value>rio@cenchin.com</value>
-            </i>
-        </post>
-        <time>1528614000000</time>
+        <i>
+            <uid>git/wurui</uid>
+            <post>
+                <i>
+                    <name>name</name>
+                    <value>wurui</value>
+                </i>
+                <i>
+                    <name>email</name>
+                    <value>rio@cenchin.com</value>
+                </i>
+            </post>
+            <time>1528614000000</time>
+        </i>
     </form-post>
     <form ADAPTERID="259c737baf5815a465d029fd3">
         <fields>
