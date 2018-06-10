@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../demo.xsl"?>
+<root>
+    <env>
+        <domain>local</domain>
+    </env>
+    <login>
+        <uid>git/wurui</uid>
+    </login>
+    <p>
+        <title>demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
+    <form-post ADAPTERID="25b1cccd638ec5a88c5a7de83">
+        <uid>git/wurui</uid>
+        <post>
+            <i>
+                <name>name</name>
+                <value>wurui</value>
+            </i>
+            <i>
+                <name>email</name>
+                <value>rio@cenchin.com</value>
+            </i>
+        </post>
+        <time>1528614000000</time>
+    </form-post>
+    <form ADAPTERID="259c737baf5815a465d029fd3">
+        <fields>
+            <i>
+                <name>name</name>
+                <type>text</type>
+                <options></options>
+                <label>Name</label>
+                <required>true</required>
+                <size></size>
+                <value></value>
+            </i>
+            <i>
+                <name>file</name>
+                <type>file</type>
+                <options></options>
+                <label>Image</label>
+                <required>true</required>
+                <size></size>
+                <value></value>
+            </i>
+        </fields>
+        <action>123</action>
+        <method>get</method>
+        <ajax>true</ajax>
+        <_id>59c737baf5815a465d029fd4</_id>
+    </form>
+    </data>
+</root>

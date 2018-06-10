@@ -1,0 +1,12 @@
+{
+  "name": "survey",
+  "apiDependencies": [
+  {
+    "name": "form"
+  },
+  {
+    "name": "form-post"
+  }
+]
+}
+
