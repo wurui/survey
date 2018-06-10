@@ -1,3 +1,1 @@
-.oxmod-survey{
-/* CSS */
- }
+.oxmod-survey .bottom,.oxmod-survey .form-section{font-size:14px;color:#111;margin:5px 10px 10px 10px;padding:10px 0;border-bottom:dotted .5px #f8f8f8}.oxmod-survey .bottom:last-child,.oxmod-survey .form-section:last-child{border-bottom-style:none}.oxmod-survey .bottom dt,.oxmod-survey .form-section dt{font-weight:700}.oxmod-survey .required{font-style:normal;color:red}.oxmod-survey .text,.oxmod-survey select,.oxmod-survey textarea{padding:1%;width:98%;border:solid 1px #ccc;border-radius:5px}.oxmod-survey .text{height:22px}.oxmod-survey textarea{height:60px;resize:none}.oxmod-survey .bottom{margin-top:20px}.oxmod-survey .bt-submit{background-color:#09c;width:100%;height:32px;color:#fff;font-size:15px;border-radius:5px;border:none}

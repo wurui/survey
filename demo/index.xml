@@ -31,22 +31,44 @@
     <form ADAPTERID="259c737baf5815a465d029fd3">
         <fields>
             <i>
-                <name>name</name>
-                <type>text</type>
-                <options></options>
-                <label>Name</label>
+                <name>type</name>
+                <type>radio</type>
+                <options>
+                    <i>H5</i>
+                    <i>微信公众号</i>
+                </options>
+                <label>开发类型</label>
                 <required>true</required>
                 <size></size>
                 <value></value>
             </i>
             <i>
-                <name>file</name>
-                <type>file</type>
-                <options></options>
-                <label>Image</label>
+                <name>detail</name>
+                <type>textarea</type>
+                <label>具体需求描述</label>
+                
+                <size></size>
+                <value></value>
+            </i>
+            <i>
+                <name>company</name>
+                <type>text</type>
+                <label>企业名称</label>
                 <required>true</required>
                 <size></size>
                 <value></value>
+            </i>
+            <i>
+                <name>phone</name>
+                <type>text</type>
+                <label>联系电话</label>
+                <required>true</required>
+            </i>
+            <i>
+                <name>email</name>
+                <type>text</type>
+                <label>邮箱</label>
+                <required>true</required>
             </i>
         </fields>
         <action>123</action>
