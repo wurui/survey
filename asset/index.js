@@ -5,12 +5,15 @@ define(['oxjs'],function(OXJS){
     		try{
     			$mod.OXPost({
 		    		'form-post':{
-		    			uid:OXJS.getUID(),
+		    			//uid:OXJS.getUID(),
+                        $inserter:'default',
 		    			post:$f.serializeArray(),
 		    			time:Date.now()
 		    		}
-		    	},function(){
-		    		OXJS.toast('提交成功！')
+		    	},function(r){
+                    ///
+                    var result=r && r[0]
+		    		OXJS.toast(result.error?'操作失败：'+result.error:'提交成功！')
 		    	})
     		}catch(e){
 
