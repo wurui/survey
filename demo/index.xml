@@ -44,14 +44,7 @@
                 <size></size>
                 <value></value>
             </i>
-            <i>
-                <name>detail</name>
-                <type>textarea</type>
-                <label>具体需求描述</label>
-                
-                <size></size>
-                <value></value>
-            </i>
+            
             <i>
                 <name>company</name>
                 <type>text</type>
@@ -71,6 +64,24 @@
                 <type>text</type>
                 <label>邮箱</label>
                 <required>true</required>
+            </i>
+            <i>
+                <name>channel</name>
+                <type>checkbox</type>
+                <label>获取渠道</label>
+                <options>
+                    <i>广告推送</i>
+                    <i>朋友介绍</i>
+                </options>
+                <required>true</required>
+            </i>
+            <i>
+                <name>detail</name>
+                <type>textarea</type>
+                <label>具体需求描述</label>
+                
+                <size></size>
+                <value></value>
             </i>
         </fields>
         <action>123</action>
