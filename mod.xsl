@@ -3,10 +3,10 @@
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-survey" ox-mod="survey">
             <form>
-            	<xsl:for-each select="data/form/fields/i">
+            	<xsl:for-each select="data/ui-fields/i">
 	            	<dl class="form-section">
 	            		<dt>
-	            			<xsl:value-of select="position()"/>.<xsl:value-of select="label"/>
+	            			<xsl:value-of select="position()"/>.<xsl:value-of select="name"/>
 	            			<xsl:if test="required">&#160;&#160;<i class="required">*</i></xsl:if>
 	            		</dt>
 	            		<dd>

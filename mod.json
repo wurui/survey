@@ -1,12 +1,12 @@
 {
   "name": "survey",
   "apiDependencies": [
-  {
-    "name": "form"
-  },
-  {
-    "name": "form-post"
-  }
-]
+	  {
+	    "name": "ui-fields"
+	  },
+	  {
+	    "name": "user-post"
+	  }
+	]
 }
 

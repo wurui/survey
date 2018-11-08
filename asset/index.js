@@ -4,7 +4,7 @@ define(['oxjs'],function(OXJS){
     	var $f=$('form',$mod).on('submit',function(){
     		try{
     			$mod.OXPost({
-		    		'form-post':{
+		    		'user-post':{
 		    			//uid:OXJS.getUID(),
                         $inserter:'default',
 		    			post:$f.serializeArray(),

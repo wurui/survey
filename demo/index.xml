@@ -14,39 +14,39 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-    <form-post ADAPTERID="25b1cccd638ec5a88c5a7de83">
-        <i>
-            <uid>git/wurui</uid>
-            <post>
-                <i>
-                    <name>name</name>
-                    <value>wurui</value>
-                </i>
-                <i>
-                    <name>email</name>
-                    <value>rio@cenchin.com</value>
-                </i>
-            </post>
-            <time>1528614000000</time>
-        </i>
-    </form-post>
-    <form ADAPTERID="259c737baf5815a465d029fd3">
-        <fields>
+        <user-post ADAPTERID="25b1cccd638ec5a88c5a7de83">
             <i>
-                <name>type</name>
+                <uid>git/wurui</uid>
+                <post>
+                    <i>
+                        <name>name</name>
+                        <value>wurui</value>
+                    </i>
+                    <i>
+                        <name>email</name>
+                        <value>rio@cenchin.com</value>
+                    </i>
+                </post>
+                <time>1528614000000</time>
+            </i>
+        </user-post>
+        <ui-fields ADAPTERID="259c737baf5815a465d029fd3">
+            
+            <i>
+                <name>需求类型</name>
                 <type>radio</type>
                 <options>
                     <i>H5</i>
                     <i>微信公众号</i>
                 </options>
-                <label>开发类型</label>
+                
                 <required>true</required>
                 <size></size>
                 <value></value>
             </i>
             
             <i>
-                <name>company</name>
+                <name>公司名</name>
                 <type>text</type>
                 <label>企业名称</label>
                 <required>true</required>
@@ -54,19 +54,19 @@
                 <value></value>
             </i>
             <i>
-                <name>phone</name>
+                <name>联系电话</name>
                 <type>text</type>
                 <label>联系电话</label>
                 <required>true</required>
             </i>
             <i>
-                <name>email</name>
+                <name>邮箱</name>
                 <type>text</type>
                 <label>邮箱</label>
                 <required>true</required>
             </i>
             <i>
-                <name>channel</name>
+                <name>获取渠道</name>
                 <type>checkbox</type>
                 <label>获取渠道</label>
                 <options>
@@ -76,18 +76,14 @@
                 <required>true</required>
             </i>
             <i>
-                <name>detail</name>
+                <name>具体需求描述</name>
                 <type>textarea</type>
                 <label>具体需求描述</label>
                 
                 <size></size>
                 <value></value>
             </i>
-        </fields>
-        <action>123</action>
-        <method>get</method>
-        <ajax>true</ajax>
-        <_id>59c737baf5815a465d029fd4</_id>
-    </form>
+
+        </ui-fields>
     </data>
 </root>
