@@ -6,7 +6,7 @@
             	<xsl:for-each select="data/ui-fields/i">
 	            	<dl class="form-section">
 	            		<dt>
-	            			<xsl:value-of select="position()"/>.<xsl:value-of select="name"/>
+	            			<xsl:value-of select="position()"/>.&#160;<xsl:value-of select="name"/>
 	            			<xsl:if test="required">&#160;&#160;<i class="required">*</i></xsl:if>
 	            		</dt>
 	            		<dd>
@@ -22,13 +22,15 @@
 	            					</select>
 	            				</xsl:when>
 	            				<xsl:when test="type = 'radio' or type = 'checkbox' ">
-            						<xsl:for-each select="options/i">
-            							<label>
-            								<input type="{../../type}" name="{../../name}" value="{.}" />
-            								<xsl:value-of select="."/>
-            							</label>
-            							&#160;&#160;&#160;&#160;
-            						</xsl:for-each>
+	            					<div class="choose-box">
+	            						<xsl:for-each select="options/i">
+	            							<label>
+	            								<input type="{../../type}" name="{../../name}" value="{.}" />
+	            								<xsl:value-of select="."/>
+	            							</label>
+	            							<br/>
+	            						</xsl:for-each>
+            						</div>
 	            				</xsl:when>
 	            				<xsl:otherwise>
 	            					<input class="text" type="{type}" name="{name}" placeholder="{placeholder}"/>

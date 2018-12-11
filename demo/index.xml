@@ -14,10 +14,10 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-        <user-post ADAPTERID="25b1cccd638ec5a88c5a7de83">
+        <user-apply ADAPTERID="25b1cccd638ec5a88c5a7de83">
             <i>
                 <uid>git/wurui</uid>
-                <post>
+                <file>
                     <i>
                         <name>name</name>
                         <value>wurui</value>
@@ -26,10 +26,10 @@
                         <name>email</name>
                         <value>rio@cenchin.com</value>
                     </i>
-                </post>
+                </file>
                 <time>1528614000000</time>
             </i>
-        </user-post>
+        </user-apply>
         <ui-fields ADAPTERID="259c737baf5815a465d029fd3">
             
             <i>
@@ -59,12 +59,7 @@
                 <label>联系电话</label>
                 <required>true</required>
             </i>
-            <i>
-                <name>邮箱</name>
-                <type>text</type>
-                <label>邮箱</label>
-                <required>true</required>
-            </i>
+          
             <i>
                 <name>获取渠道</name>
                 <type>checkbox</type>
