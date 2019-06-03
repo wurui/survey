@@ -10,7 +10,8 @@
 	    "LINK":[
 	    	{
 	    		"name":"done",
-	    		"title":"提交后跳转页面"
+	    		"title":"提交后跳转页面",
+	    		"target":"user-apply-detail"
 	    	}
 	    ]
 	  }
