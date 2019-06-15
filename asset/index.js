@@ -6,12 +6,14 @@ define(['oxjs'],function(OXJS){
     			$mod.OXPost({
 		    		'user-apply':{
 		    			//uid:OXJS.getUID(),
+                        //subject:'问卷调查',
                         $inserter:'default',
 		    			file:$f.serializeArray()
 		    		}
 		    	},function(r){
                     ///
-                    var result=r && r[0]
+                    
+                    var result=r && r['user-apply']
 		    		OXJS.toast(result.error?'操作失败：'+result.error:'提交成功！')
                     if(result && result.body && result.body.LINK){
                         location.href=result.body.LINK.done;
